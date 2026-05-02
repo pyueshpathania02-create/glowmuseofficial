@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowMuse | Premium Skincare</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Poppins:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Glow<span>Muse</span></a>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#why-us">Why Us</a>
+                <a href="#products">Products</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-nav">
+        <button class="close-menu-btn"><i class="fas fa-times"></i></button>
+        <a href="#about">About</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#products">Products</a>
+        <a href="#reviews">Reviews</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-content reveal fade-up">
+            <h1>Glow Naturally,<br> Feel Beautiful ✨</h1>
+            <p>Simple skincare products made to keep your skin fresh and glowing every day.</p>
+            <div class="hero-btns">
+                <a href="#products" class="btn btn-primary">Shop Now</a>
+                <a href="#about" class="btn btn-secondary">Explore Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container text-center">
+            <h2 class="section-title reveal fade-down">About GlowMuse</h2>
+            <div class="about-content reveal fade-up">
+                <p>
+                    GlowMuse was created with a simple idea — skincare that feels gentle, simple, and beautiful.
+                    Our products are designed to help people feel confident in their natural skin.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="features" id="why-us">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="icon">🌱</div>
+                    <h3>Natural Ingredients</h3>
+                </div>
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="icon">✨</div>
+                    <h3>Healthy Glow</h3>
+                </div>
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="icon">💖</div>
+                    <h3>Suitable for All Skin Types</h3>
+                </div>
+                <div class="feature-card reveal fade-up" style="transition-delay: 0.4s;">
+                    <div class="icon">🚚</div>
+                    <h3>Fast Delivery</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2 class="section-title text-center reveal fade-down">Shop The Glow</h2>
+            <div class="products-grid">
+                <div class="product-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="product-image">
+                        <img src="images/product1.png" alt="Vitamin C Face Serum">
+                        <div class="hover-overlay">
+                            <button class="btn btn-primary rounded">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Vitamin C Face Serum</h3>
+                        <p class="price">₹799</p>
+                        <button class="btn btn-outline full-width">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="product-image">
+                        <img src="images/product2.png" alt="Hydrating Aloe Vera Gel">
+                        <div class="hover-overlay">
+                            <button class="btn btn-primary rounded">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Hydrating Aloe Vera Gel</h3>
+                        <p class="price">₹399</p>
+                        <button class="btn btn-outline full-width">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="product-image">
+                        <img src="images/product3.png" alt="Daily Glow Face Wash">
+                        <div class="hover-overlay">
+                            <button class="btn btn-primary rounded">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Daily Glow Face Wash</h3>
+                        <p class="price">₹299</p>
+                        <button class="btn btn-outline full-width">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="product-card reveal fade-up" style="transition-delay: 0.4s;">
+                    <div class="product-image">
+                        <img src="images/product4.png" alt="SPF 50 Sunscreen">
+                        <div class="hover-overlay">
+                            <button class="btn btn-primary rounded">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>SPF 50 Sunscreen</h3>
+                        <p class="price">₹499</p>
+                        <button class="btn btn-outline full-width">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Reviews -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <h2 class="section-title text-center reveal fade-down">What Our Muses Say</h2>
+            <div class="reviews-grid">
+                <div class="review-card reveal fade-up" style="transition-delay: 0.1s;">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"My skin feels softer and healthier than ever."</p>
+                    <p class="review-author">— Riya</p>
+                </div>
+                <div class="review-card reveal fade-up" style="transition-delay: 0.2s;">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"Affordable and aesthetic products with amazing quality."</p>
+                    <p class="review-author">— Simran</p>
+                </div>
+                <div class="review-card reveal fade-up" style="transition-delay: 0.3s;">
+                    <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                    <p class="review-text">"The sunscreen is super lightweight and perfect for daily use."</p>
+                    <p class="review-author">— Ayesha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram" id="instagram">
+        <div class="container text-center reveal fade-up">
+            <h2 class="section-title">Follow Our Glow Journey ✨</h2>
+            <p class="insta-sub">Join the community of muses embracing natural beauty.</p>
+            <a href="https://instagram.com/glowmuse.skin" target="_blank" class="instagram-handle">
+                <i class="fab fa-instagram"></i> @glowmuse.skin
+            </a>
+        </div>
+    </section>
+
+    <!-- Contact & Footer Section -->
+    <footer id="contact">
+        <div class="container footer-content reveal fade-up">
+            <div class="footer-brand">
+                <a href="#" class="logo">Glow<span>Muse</span></a>
+                <p>Simple skincare products made to keep your skin fresh and glowing every day.</p>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li><a href="mailto:glowmuse@gmail.com"><i class="fas fa-envelope"></i> glowmuse@gmail.com</a></li>
+                    <li><i class="fas fa-map-marker-alt"></i> India</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 GlowMuse. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Chatbot Bubble -->
+    <div class="chatbot-container">
+        <div class="chatbot-bubble">
+            <div class="bot-header">
+                <span>GlowMuse Support</span>
+                <button class="close-bot"><i class="fas fa-times"></i></button>
+            </div>
+            <div class="bot-body">
+                <div class="bot-message">Hi beautiful ✨ Need skincare help?</div>
+            </div>
+            <div class="bot-input">
+                <input type="text" placeholder="Type a message...">
+                <button><i class="fas fa-paper-plane"></i></button>
+            </div>
+        </div>
+        <button class="chatbot-btn">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
